@@ -8,7 +8,7 @@ All programs should be easily campiled and run on Linux machines, as not tested 
 ---
 ### Compile and Run
 #### GCC
-> `gcc file.c -o outputfile` 
+> gcc file.c -o outputfile 
 
 Kernel Linux
 
