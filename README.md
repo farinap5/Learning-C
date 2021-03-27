@@ -7,12 +7,18 @@ The idea is that all the codes are simple to understand because they have commen
 
 All programs should be easily campiled and run on Linux based machines, as not tested on Windows shouldn't fail though.
 
+Feel free to open a pull request to fix any issues or include any new code.
 ---
 ### Compile and Run
 
 Simple compilation.
 
+#### CLang
+
+> clang-7 -pthread -lm -o output file.c
+
 #### GCC
+
 > gcc file.c -o outputfile 
 
 Kernel Linux
@@ -27,5 +33,4 @@ Windows
 
 > \> outputfile
 
----
-Feel free to open a pull request to fix any issues or include any new code. 
+ 
