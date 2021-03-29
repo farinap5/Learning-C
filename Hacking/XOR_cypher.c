@@ -1,6 +1,7 @@
-// An algorithm created to encrypt files with XOR logic.
+// An algorithm created to encrypt and decrypt files with XOR logic.
 // Usage method: 
 // a.out <key> <file to encrypt/decrypt> <file to write>
+// Mo not use this encryption in real life, it is easily broken.
 #include <stdio.h>
 
 // Main function
@@ -14,7 +15,7 @@ int main(int args, char *argv[]) {
   // Integer to index the key.
   int c;
 
-  // Store the key, the first atgument.
+  // Store the key, the first atgument given on command line.
   chave = argv[1];
   // Check that the key is not null.
   if (*chave != '\0') {
