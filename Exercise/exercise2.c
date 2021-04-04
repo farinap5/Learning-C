@@ -1,6 +1,6 @@
 /*
-2 - Make an algorithm that receives a number and shows a message 
-if this number is greater than 80, less than 25 or equal to 40.
+2 - Make an algorithm that receives two numbers 
+and shows in ascending order.
 
 Solution:
 */
@@ -9,20 +9,21 @@ Solution:
 
 // Main function
 int main(void) {
-  // Variable n = number
-  int n;
+  // Declaring the variables that receive the values.
+  int num1, num2;
 
-  // Output massage asking for a number.
-  printf("Enter a number: ");
-  // Store given number.
-  scanf("%d", &n);
+  // Ask for the number and store the given velue.
+  printf("Provide a number: ");
+  scanf("%d", &num1);
+  printf("Provide another number: ");
+  scanf("%d", &num2);
 
-  // Using logical and relational operators to compare.
-  // -----25-------40-------80-----
-  // true <|false|true|false|> true
-  if (n > 80 || n < 25 || n == 40) {
-    printf("OK\n");
+  // Comparing both using relational operators.
+  if (num1 < num2) {
+    printf("%d is greater than %d\n", num2,num1);
+  } else{
+    printf("%d is greater than %d\n", num1,num2);
   }
-
+  
   return 0;
 }

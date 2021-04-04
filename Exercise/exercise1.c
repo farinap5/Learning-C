@@ -1,23 +1,29 @@
 /*
-1 - Write a program that asks for an integer.
-Display an error message if the number entered 
-is between 15 and 25 or between 45 and 50.
+1 - Make an algorithm that receives a number and shows 
+a message if that number is greater than 10.
 
 Solution:
 */
+
 #include <stdio.h>
 
 // Main function
-int main(void) {
-  // Integer "n" number.
-  int n;
-  // Ask for a number.
-  printf("Enter a number: ");
-  // Store this number
-  scanf("%d", &n);
-  // Using logical and relational operators.
-  if ((n > 15 && n < 25) || (n > 45 && n < 50)) {
-    printf("ERROR!\n");
+int main(void){
+  // Variable number
+  int num;
+  // Variable to compare
+  int com;
+
+  com = 10;
+
+  // Ask for the number.
+  printf("Insert a number: ");
+  // Store the number.
+  scanf("%d", &num);
+
+  // Comparing using relational operators.
+  if (num > com) {
+    printf("The number %d is greater than %d!\n",num,com);
   }
   return 0;
 }
