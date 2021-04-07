@@ -2,6 +2,8 @@
 8 - Increment the previous exercise, in case the measures 
 form a valid triangle, inform which type of triangle they form: 
 equilateral, isosceles or scalene.
+
+Solution:
 */
 #include <stdio.h>
 
