@@ -22,15 +22,13 @@ These are the ways I found to complete the exercises, there may be better ways t
 
 ```
 ```
-6 - Write a program that asks for an integer.
-Display an error message if the number entered is between 15 and 25 or between 45 and 50.
+6 - Write a program that asks for an integer. Display an error message if the number entered is between 15 and 25 or between 45 and 50.
 ```
 ```
 7 - Make an algorithm that receives a number and shows a message if this number is greater than 80, less than 25 or equal to 40.
 ```
 ```
-8 - Increment the previous exercise, in case the measures 
-form a valid triangle, inform which type of triangle they form: equilateral, isosceles or scalene.
+8 - Increment the previous exercise, in case the measures form a valid triangle, inform which type of triangle they form: equilateral, isosceles or scalene.
 ```
 ```
 9 - Remake the previous exercise now showing right triangle.
@@ -43,4 +41,10 @@ form a valid triangle, inform which type of triangle they form: equilateral, iso
 ```
 ```
 12 - Update the previous algorithm now with 3 attempts.
+```
+```
+13 - Draw two numbers from 1 to 5 and ask the user to hit the two numbers,not in the same order.
+```
+```
+14 - Draw two numbers from 1 to 10 and inform how many of these numbers are between 3 and 7.
 ```
