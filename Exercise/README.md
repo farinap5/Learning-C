@@ -48,3 +48,30 @@ These are the ways I found to complete the exercises, there may be better ways t
 ```
 14 - Draw two numbers from 1 to 10 and inform how many of these numbers are between 3 and 7.
 ```
+```
+15 - Zeca will use a computer to control the daily income of his work as fisherman.
+Each time he brings a fish weight greater than that established by the fishing regulation (50kg) he must
+pay a fine of $4.00 for each kilogram. Zeca needs an algorithm to help him calculating if there is any 
+excess and how much is this excess.
+```
+```
+16 - Write a program that displays any complete multiplication tables. The program should ask the user which multiplication table he wants to view, which he will answer by typing a number from 1 to 10.
+```
+```
+17 - Write a program that displays the square of all numbers from 1 to 20.
+```
+```
+18 - Write a program that asks the user for 5 numbers, and for each number entered, informs if it is pair or inpair.
+```
+```
+19 - Write a program that displays the sum of the numbers from 1 to 100.
+```
+```
+20 - Write a program that asks for 10 numbers and at the end displays the sum of all of them.
+```
+```
+21 - Write a program that prompts the user for a number, and then displays all of its divisors.
+```
+```
+22 - Ask the user to enter a number between 10 and 20. If an invalid number is entered, ask again until the user enters a correct number.
+```
