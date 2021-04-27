@@ -19,7 +19,6 @@ These are the ways I found to complete the exercises, there may be better ways t
 ```
 ```
 5 - make an algorithm that receives two numbers and shows in ascending order, or shows a message if they are equal.
-
 ```
 ```
 6 - Write a program that asks for an integer. Display an error message if the number entered is between 15 and 25 or between 45 and 50.
@@ -74,4 +73,10 @@ excess and how much is this excess.
 ```
 ```
 22 - Ask the user to enter a number between 10 and 20. If an invalid number is entered, ask again until the user enters a correct number.
+```
+```
+23 - Write a program that asks for the code and the height of 5 athletes. At the end of the data entry, propt the height and code of the tallest athlete.
+```
+```
+24 - Request a number and prompt if it is a perfect number.
 ```
