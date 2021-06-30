@@ -22,9 +22,8 @@ int main(int argc, char *argv[]) {
 
         connectt = connect(meusocket,(struct sockaddr *)&alvo, sizeof alvo);
 
-        printf("%d - ",port);
         if (connectt == 0) {
-            printf("Port Opened <-\n");
+            printf("%d - Port Opened <-\n",port);
             close(meusocket);
             close(connect);
         } else {
@@ -33,7 +32,6 @@ int main(int argc, char *argv[]) {
             close(connect);
         }
     }
-
 
     return 0;
 }
