@@ -1,6 +1,7 @@
 /*
 This program generates a array randomly
 and organizes showing step by step.
+Bubble Sort.
 
 Example:
 Array generated:
