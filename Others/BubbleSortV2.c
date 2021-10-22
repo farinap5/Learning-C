@@ -1,6 +1,6 @@
 /*
-    O(n) = n² + n - 2
-               2
+    O(n) = n²
+           2
     Bubble Sort
 */
 
